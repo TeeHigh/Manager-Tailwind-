@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background-image: url('../images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: 110% -15%;
+}
+#cta{
+    background-image: url('../images/bg-simplify-section-desktop.svg');
+    background-repeat: no-repeat;
+}
+main{
+    background-image: url('../images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: -45% 70%;
+}
+@media(max-width: 976px){
+    main{
+        background-size: 500px;
+        background-position: -90% 60%;
+    }
+}
+@media(max-width: 768px){
+    body{
+        background-image: url('../images/bg-tablet-pattern.svg');
+        background-repeat: no-repeat;
+        background-size: 350px;
+        background-position: 160% -2%;
+    }
+    #cta{
+        background-image: url('../images/bg-simplify-section-mobile.svg');
+        background-repeat: no-repeat;
+    }
+    main{
+        background-image: url('../images/bg-tablet-pattern.svg');
+        background-repeat: no-repeat;
+        background-size: 250px;
+        background-position: 175% 20%;
+    }
+}
