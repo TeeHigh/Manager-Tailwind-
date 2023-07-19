@@ -23,8 +23,6 @@ module.exports = {
       backgroundImage: {
         'darkModeSvg': 'url(../images/bg-tablet-pattern-dark.svg)',
         'lightModeSvg': 'url(../images/bg-tablet-pattern.svg)',
-        
-
       }
     },
   },
